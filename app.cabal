@@ -9,8 +9,8 @@ executable app
   main-is:             Main.hs
   ghcjs-options:
     -dedupe
-    build-depends:
-          base   ^>= 4.12.0.0,
-          miso,
-          jsaddle-warp
+  build-depends:
+        base   ^>= 4.12.0.0,
+        miso,
+        jsaddle-warp
   default-language:    Haskell2010

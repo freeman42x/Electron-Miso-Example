@@ -12,7 +12,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   // win.loadFile('./result/bin/app.jsexe/index.html')
-  win.loadURL('https://github.com')
+  win.loadURL('http://localhost:8080/')
 }
 
 app.on('ready', createWindow)
